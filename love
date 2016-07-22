@@ -1,1 +1,10 @@
-echo "you can do it"
+ROB=$Rohit
+if [ "1" -ne "2" ]
+then 
+echo "$ROB is on right path and will keep on trying"
+else
+echo "$ROB can still be on his path its never too late"
+fi
+
+read f; "enter you name"
+echo "$f congrats "
