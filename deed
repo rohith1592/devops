@@ -1,0 +1,12 @@
+read -p "enter yes or no" ANSWER
+case "$ANSWER" in 
+[yY]|[yY][eE][sS])
+echo "You have entered Yes"
+;;
+[nN]|[nN][oO])
+echo "You have entered No"
+;;
+*)
+echo "Invalid Answer"
+;;
+esac
