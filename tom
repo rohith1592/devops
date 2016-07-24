@@ -1,0 +1,10 @@
+read -p "Enter You Name" OO
+echo "Thank you $OO"
+if [ -f "$TOM" ]
+then 
+git add $TOM
+git commit -m "Jerry"
+git push
+else
+echo "Try Again"
+fi
